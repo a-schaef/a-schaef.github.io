@@ -1,0 +1,68 @@
+---
+---
+
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@200;300;400;500&family=Playfair+Display:wght@400;500&display=swap');
+
+// -------------------------------------------------------
+// Warm linen & terracotta (Warm A)
+// -------------------------------------------------------
+
+$background-color:        #fffaf4;  // soft pastel orange
+$text-color:              #4a2c18;  // dark warm brown
+$muted-text-color:        #7a4c34;  // mid warm brown
+$primary-color:           #c4845c;  // rich terracotta
+$border-color:            #e8d0bc;  // warm sandy border
+$footer-background-color: #c4845c;  // terracotta footer ribbon
+
+// -------------------------------------------------------
+// Navy & red
+// -------------------------------------------------------
+
+// $background-color:        #e8eef8;  // medium blue
+// $text-color:              #0e2244;  // deep navy
+// $muted-text-color:        #2a3e5c;  // mid navy
+// $primary-color:           #1a3560;  // navy buttons & links
+// $border-color:            #c0d0e8;  // light blue border
+// $footer-background-color: #9e1b32;  // red footer ribbon
+
+// -------------------------------------------------------
+// THEME IMPORTS (must come after variable overrides)
+// -------------------------------------------------------
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+// -------------------------------------------------------
+// TYPOGRAPHY — headings
+// -------------------------------------------------------
+
+h1, h2, h3, h4, h5, h6,
+.author__name {
+  font-family: 'Source Serif 4', serif;
+  font-weight: 500;
+}
+
+// // -------------------------------------------------------
+// // TYPOGRAPHY — body
+// // -------------------------------------------------------
+
+// body, p, li, td,
+// .page__content {
+// //   font-family: 'Playfair Display', serif;
+// //   font-weight: 400;
+// }
+
+// // -------------------------------------------------------
+// // TYPOGRAPHY — nav & UI (Source Serif 4 light)
+// // To adjust weight later, change font-weight here only
+// // -------------------------------------------------------
+
+// .nav__list, .toc__menu, .btn,
+// .page__meta, .breadcrumbs,
+// .sidebar__right, .author__bio,
+// .author__urls, .pagination {
+//   font-family: 'Source Serif 4', serif;
+//   font-weight: 300;
+// }

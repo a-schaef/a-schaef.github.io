@@ -1,12 +1,38 @@
 title: Alexander Schaefer
-description: Alex Schaefer is in his first year of his Ph.D. studies under the direction of Dr. Robert Radway in the Electrical and Systems Engineering department. His research focuses on the integration of emerging memory devices at the architectural level to address memory bottlenecks in modern computing systems, including as a means of mitigating radiation effects in satellites. Alex earned his Bachelor of Science in computer engineering from the University of Virginia in May 2025. In his free time, he enjoys playing the drum set,  swimming, and exploring local vinyl shops.
 
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: mmistakes/minimal-mistakes@4.28.0
+minimal_mistakes_skin: default
 
 plugins:
-  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-feed
 
-# Social links
-github_username: a-schaef
-linkedin_username: a-schaef  # just the part after linkedin.com/in/
-email: aschaef@seas.upenn.edu
+include:
+  - _pages
+
+after_footer_scripts:
+  - /assets/js/color-scheme-toggle.js
+
+author:
+  name: Alexander Schaefer
+  avatar: /assets/images/headshot.jpg
+  bio: "I am a PhD student at UPenn with an interest in co-design of memory arrays and hardware accelerators."
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:aschaef@seas.upenn.edu"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/a-schaef"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/a-schaef"
+
+navigation:
+  main:
+    - title: "About"
+      url: /
+    - title: "Publications"
+      url: /publications/
+    - title: "CV"
+      url: /cv/

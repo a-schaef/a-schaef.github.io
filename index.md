@@ -1,38 +1,19 @@
 ---
-layout: default
-title: Alexander Schaefer
+layout: home
+title: About
+author_profile: true
 ---
 
-# Hi, I'm Alex 👋
 
-I am a PhD student at UPenn with an interest in co-design of memory arrays and hardware accelerators. *Another sentence*
-
+## Bio
 ---
+I am in my second year of my Ph.D. studies under the direction of Dr. Robert Radway in the Electrical and Systems Engineering department at the University of Pennsylvania. My research focuses on the integration of emerging memory devices at the architectural level to address memory bottlenecks in modern computing systems. I earned my Bachelor of Science in computer engineering from the University of Virginia in May 2025. In my free time, I enjoy playing the drum set, swimming, and exploring local vinyl shops.
+<br>
 
-## About Me
-
-A short paragraph about your background, interests, or what drives you.
-Keep it personal — this is the human side of your site.
-
+## Projects
 ---
-
-## Work & Projects
-
-- **Project Name** — Short description of what it is and what you built. [View on GitHub](#)
-- **Project Name** — Short description of what it is and what you built. [View on GitHub](#)
-- **Project Name** — Short description of what it is and what you built. [View on GitHub](#)
-
----
-
-## Experience
-
-- **Job Title** at Company Name *(Year – Year)*
-- **Job Title** at Company Name *(Year – Year)*
-
----
-
-## Get in Touch
-
-- 📧 [aschaef@seas.upenn.edu](mailto:aschaef@seas.upenn.edu)
-- 💼 [LinkedIn](https://linkedin.com/in/a-schaef)
-- 🐙 [GitHub](https://github.com/a-schaef)
+*Projects and descriptions coming soon.*
+<!-- - **Project Name** — Short description of what it is and what you built. [View on GitHub](#) -->
+<!-- - **Project Name** — Short description of what it is and what you built. [View on GitHub](#) -->
+<!-- - **Project Name** — Short description of what it is and what you built. [View on GitHub](#) -->
+<br><br><br>
