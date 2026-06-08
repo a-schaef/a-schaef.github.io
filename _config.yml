@@ -1,0 +1,12 @@
+title: Alexander Schaefer
+description: Alex Schaefer is in his first year of his Ph.D. studies under the direction of Dr. Robert Radway in the Electrical and Systems Engineering department. His research focuses on the integration of emerging memory devices at the architectural level to address memory bottlenecks in modern computing systems, including as a means of mitigating radiation effects in satellites. Alex earned his Bachelor of Science in computer engineering from the University of Virginia in May 2025. In his free time, he enjoys playing the drum set,  swimming, and exploring local vinyl shops.
+
+remote_theme: pages-themes/cayman@v0.2.0
+
+plugins:
+  - jekyll-remote-theme
+
+# Social links
+github_username: a-schaef
+linkedin_username: a-schaef  # just the part after linkedin.com/in/
+email: aschaef@seas.upenn.edu
