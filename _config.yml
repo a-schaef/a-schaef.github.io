@@ -1,4 +1,5 @@
 title: Alexander Schaefer
+locale: "en-US"
 
 remote_theme: mmistakes/minimal-mistakes@4.28.0
 minimal_mistakes_skin: default
@@ -9,6 +10,15 @@ plugins:
 
 include:
   - _pages
+
+atom_feed:
+  hide: true
+
+footer:
+  links:
+    - label: "Contact"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:aschaef@seas.upenn.edu"
 
 after_footer_scripts:
   - /assets/js/color-scheme-toggle.js
