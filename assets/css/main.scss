@@ -12,7 +12,7 @@
 $background-color:        #fffaf4;  // soft pastel orange
 $text-color:              #4a2c18;  // dark warm brown
 $muted-text-color:        #7a4c34;  // mid warm brown
-$primary-color:           #cc6228;  // warm orange (nav, accent, body links)
+$primary-color:           #cc6228;  // warm orange (nav, accent)
 $border-color:            #e8d0bc;  // warm sandy border
 $footer-background-color: #bb7953;  // terracotta ribbon
 
@@ -38,8 +38,6 @@ $footer-background-color: #bb7953;  // terracotta ribbon
 // LINKS — override MM's default teal with warm scheme
 // -------------------------------------------------------
 
-// Base link color: brighter, more vivid orange than the nav terracotta.
-// Nav links stay at $primary-color via MM's more-specific .greedy-nav a rule.
 a {
   color: #cc6228;
 }
@@ -49,6 +47,16 @@ a:visited {
 a:hover,
 a:active {
   color: #b8531f;
+}
+
+// Nav links — midpoint between body link color and footer ribbon at rest, body link on hover
+.greedy-nav a,
+.greedy-nav a:visited {
+  color: #c07449;
+}
+.greedy-nav a:hover,
+.greedy-nav a:active {
+  color: #cc6228;
 }
 
 // -------------------------------------------------------
