@@ -19,7 +19,7 @@ footer:
   links:
     - label: "Contact"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:aschaef@seas.upenn.edu"
+      url: "mailto:aschaef@engineering.upenn.edu"
 
 after_footer_scripts:
   - /assets/js/color-scheme-toggle.js
@@ -31,7 +31,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:aschaef@seas.upenn.edu"
+      url: "mailto:aschaef@engineering.upenn.edu"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/a-schaef"
